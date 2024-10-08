@@ -45,3 +45,19 @@ services:
       - ./ff.web/:/app/ # Mount the current directory to the container's /app directory
     environment:
       STORYBOOK_BASE_PATH: "/"
+
+  #########################################
+  # MongoDB service
+  mongo:
+    image: mongo:latest
+    container_name: ff.mongo
+    ports:
+      - "27017:27017" # Expose MongoDB port
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+    volumes:
+      - mongo_data:/data/db # Persistent data storage
+
+volumes:
+  mongo_data: # Named volume for MongoDB data persistence
