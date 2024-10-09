@@ -1,0 +1,57 @@
+[
+    {
+      "username": "suzzie99",
+      "email": "suzzie.simpson@example.com",
+      "likes": [
+        "cheese",
+        "olives"
+      ],
+      "dislikes": null,
+      "allergies": [
+        "chocolate"
+      ]
+    },
+    {
+      "username": "johnDoe",
+      "email": "john.doe@example.com",
+      "likes": [
+        "pizza",
+        "burgers"
+      ],
+      "dislikes": [
+        "spinach"
+      ],
+      "allergies": []
+    },
+    {
+      "username": "amyWine",
+      "email": "amy.winehouse@example.com",
+      "likes": [
+        "wine",
+        "cheese",
+        "bread"
+      ],
+      "dislikes": [
+        "broccoli",
+        "brussels sprouts"
+      ],
+      "allergies": [
+        "gluten"
+      ]
+    },
+    {
+      "username": "tomHanks",
+      "email": "tom.hanks@example.com",
+      "likes": [
+        "pasta",
+        "ice cream"
+      ],
+      "dislikes": [
+        "peppers"
+      ],
+      "allergies": [
+        "nuts"
+      ]
+    }
+  ]
+  
