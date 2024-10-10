@@ -28,9 +28,12 @@ services:
     volumes:
       - /app/node_modules # Prevent the node_modules folder from being overwritten by the volume
       - ./ff.api/:/app/ # Mount the current directory to the container's /app directory
+    depends_on:
+      - mongo # Ensure mongo starts first
     environment:
       VITE_FFAPI_PORT: "7702"
       VITE_FFAPI_BASE_URL: "/"
+      MONGO_URI: mongodb://root:example@mongo:27017/mydatabase?authSource=admin
   #########################################
   # Vuo Storybook, local.vuo.ai/storybook
   ff.storybook:
