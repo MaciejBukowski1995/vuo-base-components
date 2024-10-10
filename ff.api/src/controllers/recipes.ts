@@ -9,8 +9,7 @@ export const getAllRecipes = async (req: express.Request, res: express.Response)
 
         return res.status(200).json(recipes);
     } catch (error) {
-        console.log(error);
-        return res.sendStatus(400) as any;
+        return res.status(400).json({ message: error });
     }
 }
 
@@ -19,15 +18,13 @@ export const createRecipeWhenNotExist = async (req: express.Request, res: expres
         const {name, ingredients, instructions, prepTime, cookTime, servings, tags, allergens} = req.body;
 
         if (!name || !ingredients || !instructions || !prepTime || !cookTime || !servings || !tags){
-            console.log("Not all mandatory fields provided!");
-            return res.sendStatus(400) as any;
+            return res.status(400).json({ message: "Not all mandatory fields provided!" });
         }
 
         const existingRecipe = await findRecipeByName(name);
 
         if(existingRecipe) {
-            console.log("This recipe alrady exists!");
-            return res.sendStatus(400) as any;
+            return res.status(400).json({ message: "This recipe alrady exists!" });
         }
 
         const recipe = await createRecipe({
@@ -43,8 +40,7 @@ export const createRecipeWhenNotExist = async (req: express.Request, res: expres
 
         return res.status(200).json(recipe).end() as any;
     } catch (error) {
-        console.log(error);
-        return res.sendStatus(400) as any;
+        return res.status(400).json({ message: error });
     }
 }
 
@@ -86,14 +82,12 @@ export const getFiveRecipesByGroupIdAndType = async (req: express.Request, res: 
 
         const group = await findGroupById(id);
         if (!group) {
-            console.log("Group with this id does not exist!");
-            return res.sendStatus(400) as any;
+            return res.status(400).json({ message: "Group with this id does not exist!" });
         }
 
         const users = await findUsersByEmails(group.users);
         if (!users || users.length === 0) { // Check if users array is empty
-            console.log("Users not found!");
-            return res.sendStatus(400) as any;
+            return res.status(400).json({ message: "Users not found!" });
         }
 
         // Flatten and get unique allergies
@@ -112,8 +106,7 @@ export const getFiveRecipesByGroupIdAndType = async (req: express.Request, res: 
 
         return res.status(200).json(fiveMeals);
     } catch (error) {
-        console.log(error);
-        return res.sendStatus(400) as any;
+        return res.status(400).json({ message: error });
     }
 }
 
@@ -123,14 +116,12 @@ export const getFourteenDaysRecipesByGroupIdAndType = async (req: express.Reques
 
         const group = await findGroupById(id);
         if (!group) {
-            console.log("Group with this id does not exist!");
-            return res.sendStatus(400) as any;
+            return res.status(400).json({ message: "Group with this id does not exist!" });
         }
 
         const users = await findUsersByEmails(group.users);
         if (!users || users.length === 0) { // Check if users array is empty
-            console.log("Users not found!");
-            return res.sendStatus(400) as any;
+            return res.status(400).json({ message: "Users not found!" });
         }
 
         // Flatten and get unique allergies
@@ -151,7 +142,6 @@ export const getFourteenDaysRecipesByGroupIdAndType = async (req: express.Reques
 
         return res.status(200).json([...fourteenBreakfasts, ...fourteenLunches, ...fourteenDinners]);
     } catch (error) {
-        console.log(error);
-        return res.sendStatus(400) as any;
+        return res.status(400).json({ message: error });
     }
 }

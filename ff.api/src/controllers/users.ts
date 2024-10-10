@@ -7,8 +7,7 @@ export const getAllUsers = async (req: express.Request, res: express.Response) =
 
         return res.status(200).json(users);
     } catch (error) {
-        console.log(error);
-        return res.sendStatus(400) as any;
+        return res.status(400).json({ message: error });
     }
 }
 
@@ -17,13 +16,13 @@ export const createUserWhenNotExist = async (req: express.Request, res: express.
         const {username, email, likes, dislikes, allergies} = req.body;
 
         if (!email || !username){
-            return res.sendStatus(400) as any;
+            return res.status(400).json({ message: "Username or email not provided!" });
         }
 
         const existingUser = await findUserByEmail(email);
 
         if(existingUser) {
-            return res.sendStatus(400) as any;
+            return res.status(400).json({ message: "User with this email already exists!" });
         }
 
         const user = await createUser({
@@ -36,8 +35,7 @@ export const createUserWhenNotExist = async (req: express.Request, res: express.
 
         return res.status(200).json(user).end() as any;
     } catch (error) {
-        console.log(error);
-        return res.sendStatus(400) as any;
+        return res.status(400).json({ message: error });
     }
 }
 
@@ -47,14 +45,12 @@ export const getUserById = async (req: express.Request, res: express.Response) =
 
         const user = await findUserById(id);
         if(!user) {
-            console.log("User with this email does not exist!");
-            return res.sendStatus(400) as any;
+            return res.status(404).json({ message: "User with this email does not exist!" });
         }
 
 
         return res.status(200).json(user).end() as any;
     } catch (error) {
-        console.log(error);
-        return res.sendStatus(400) as any;
+        return res.status(400).json({ message: error });
     }
 }
