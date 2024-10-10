@@ -10,6 +10,12 @@ The application is built on a Node.js and Express framework, leveraging MongoDB 
 
 ## Getting started
 
+To initialize DB with 1000 recipes run: "npm run populate-db -- --recipes".
+If you want to use sample users and group, run it also with "--users --groups".
+
+
+
+
 ### Requirements
 
 - Node.js
