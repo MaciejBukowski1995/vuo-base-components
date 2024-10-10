@@ -1,0 +1,1156 @@
+[
+    {
+      "name": "Spaghetti Bolognese",
+      "ingredients": [
+        { "name": "Spaghetti", "quantity": "200", "unit": "grams" },
+        { "name": "Ground Beef", "quantity": "500", "unit": "grams" },
+        { "name": "Tomato Sauce", "quantity": "2", "unit": "cups" },
+        { "name": "Garlic", "quantity": "2", "unit": "cloves" },
+        { "name": "Onion", "quantity": "1", "unit": "piece" }
+      ],
+      "instructions": [
+        "Cook the spaghetti according to package instructions.",
+        "Brown the ground beef in a pan.",
+        "Add the garlic and onion and cook until softened.",
+        "Add the tomato sauce and simmer for 15 minutes.",
+        "Serve the sauce over the cooked spaghetti."
+      ],
+      "prepTime": "15 minutes",
+      "cookTime": "30 minutes",
+      "servings": "4",
+      "tags": ["Italian", "Dinner"],
+      "allergens": ["Gluten"]
+    },
+    {
+      "name": "Chicken Salad",
+      "ingredients": [
+        { "name": "Chicken Breast", "quantity": "200", "unit": "grams" },
+        { "name": "Lettuce", "quantity": "1", "unit": "head" },
+        { "name": "Tomatoes", "quantity": "2", "unit": "pieces" },
+        { "name": "Cucumber", "quantity": "1", "unit": "piece" },
+        { "name": "Olive Oil", "quantity": "2", "unit": "tablespoons" }
+      ],
+      "instructions": [
+        "Cook the chicken breast and slice it.",
+        "Chop the lettuce, tomatoes, and cucumber.",
+        "Toss the vegetables with olive oil.",
+        "Top with the sliced chicken."
+      ],
+      "prepTime": "10 minutes",
+      "cookTime": "20 minutes",
+      "servings": "2",
+      "tags": ["Healthy", "Lunch"],
+      "allergens": []
+    },
+    {
+      "name": "Avocado Toast",
+      "ingredients": [
+        { "name": "Bread", "quantity": "2", "unit": "slices" },
+        { "name": "Avocado", "quantity": "1", "unit": "piece" },
+        { "name": "Salt", "quantity": "1", "unit": "pinch" },
+        { "name": "Pepper", "quantity": "1", "unit": "pinch" }
+      ],
+      "instructions": [
+        "Toast the bread.",
+        "Mash the avocado and spread it on the toast. Season with salt and pepper."
+      ],
+      "prepTime": "5 minutes",
+      "cookTime": "2 minutes",
+      "servings": "1",
+      "tags": ["Breakfast"],
+      "allergens": ["Gluten"]
+    },
+    {
+      "name": "Quinoa Salad",
+      "ingredients": [
+        { "name": "Quinoa", "quantity": "1", "unit": "cup" },
+        { "name": "Cucumber", "quantity": "1", "unit": "piece" },
+        { "name": "Tomato", "quantity": "1", "unit": "piece" },
+        { "name": "Olive Oil", "quantity": "2", "unit": "tablespoons" },
+        { "name": "Lemon Juice", "quantity": "1", "unit": "tablespoon" }
+      ],
+      "instructions": [
+        "Cook the quinoa and let it cool.",
+        "Chop the cucumber and tomato and mix with the quinoa.",
+        "Drizzle with olive oil and lemon juice."
+      ],
+      "prepTime": "15 minutes",
+      "cookTime": "15 minutes",
+      "servings": "2",
+      "tags": ["Lunch"],
+      "allergens": []
+    },
+    {
+      "name": "Baked Salmon",
+      "ingredients": [
+        { "name": "Salmon Fillet", "quantity": "200", "unit": "grams" },
+        { "name": "Lemon", "quantity": "1", "unit": "slice" },
+        { "name": "Olive Oil", "quantity": "1", "unit": "tablespoon" },
+        { "name": "Salt", "quantity": "1", "unit": "pinch" },
+        { "name": "Pepper", "quantity": "1", "unit": "pinch" }
+      ],
+      "instructions": [
+        "Place the salmon on a baking sheet.",
+        "Drizzle with olive oil, and season with salt and pepper.",
+        "Bake in the oven at 180°C for 15 minutes."
+      ],
+      "prepTime": "5 minutes",
+      "cookTime": "15 minutes",
+      "servings": "1",
+      "tags": ["Dinner"],
+      "allergens": ["Fish"]
+    },
+    {
+      "name": "Fruit Smoothie",
+      "ingredients": [
+        { "name": "Banana", "quantity": "1", "unit": "piece" },
+        { "name": "Berries", "quantity": "1/2", "unit": "cup" },
+        { "name": "Greek Yogurt", "quantity": "1", "unit": "cup" },
+        { "name": "Honey", "quantity": "1", "unit": "tablespoon" }
+      ],
+      "instructions": [
+        "Blend all ingredients until smooth."
+      ],
+      "prepTime": "5 minutes",
+      "cookTime": "0 minutes",
+      "servings": "1",
+      "tags": ["Breakfast"],
+      "allergens": ["Dairy"]
+    },
+    {
+      "name": "Beef Tacos",
+      "ingredients": [
+        { "name": "Ground Beef", "quantity": "200", "unit": "grams" },
+        { "name": "Taco Shells", "quantity": "4", "unit": "pieces" },
+        { "name": "Lettuce", "quantity": "1/2", "unit": "cup" },
+        { "name": "Tomato", "quantity": "1", "unit": "piece" },
+        { "name": "Cheddar Cheese", "quantity": "1/2", "unit": "cup" }
+      ],
+      "instructions": [
+        "Cook the ground beef with taco seasoning.",
+        "Assemble tacos with beef, lettuce, tomato, and cheese."
+      ],
+      "prepTime": "10 minutes",
+      "cookTime": "15 minutes",
+      "servings": "2",
+      "tags": ["Dinner"],
+      "allergens": ["Dairy"]
+    },
+    {
+      "name": "Caprese Salad",
+      "ingredients": [
+        { "name": "Tomatoes", "quantity": "2", "unit": "pieces" },
+        { "name": "Mozzarella", "quantity": "1", "unit": "ball" },
+        { "name": "Basil", "quantity": "10", "unit": "leaves" },
+        { "name": "Olive Oil", "quantity": "2", "unit": "tablespoons" },
+        { "name": "Balsamic Vinegar", "quantity": "1", "unit": "tablespoon" }
+      ],
+      "instructions": [
+        "Slice the tomatoes and mozzarella.",
+        "Layer the slices with basil leaves.",
+        "Drizzle with olive oil and balsamic vinegar."
+      ],
+      "prepTime": "10 minutes",
+      "cookTime": "0 minutes",
+      "servings": "2",
+      "tags": ["Lunch"],
+      "allergens": ["Dairy"]
+    },
+    {
+      "name": "French Toast",
+      "ingredients": [
+        { "name": "Bread", "quantity": "2", "unit": "slices" },
+        { "name": "Egg", "quantity": "1", "unit": "piece" },
+        { "name": "Milk", "quantity": "1/4", "unit": "cup" },
+        { "name": "Cinnamon", "quantity": "1/2", "unit": "teaspoon" }
+      ],
+      "instructions": [
+        "Whisk egg, milk, and cinnamon together.",
+        "Dip the bread slices into the mixture and cook in a pan until golden."
+      ],
+      "prepTime": "5 minutes",
+      "cookTime": "5 minutes",
+      "servings": "1",
+      "tags": ["Breakfast"],
+      "allergens": ["Gluten", "Dairy", "Eggs"]
+    },
+    {
+      "name": "Tomato Soup",
+      "ingredients": [
+        { "name": "Tomatoes", "quantity": "4", "unit": "pieces" },
+        { "name": "Onion", "quantity": "1", "unit": "piece" },
+        { "name": "Garlic", "quantity": "2", "unit": "cloves" },
+        { "name": "Vegetable Broth", "quantity": "2", "unit": "cups" },
+        { "name": "Olive Oil", "quantity": "1", "unit": "tablespoon" }
+      ],
+      "instructions": [
+        "Chop the onions and garlic, and sauté in olive oil.",
+        "Add tomatoes and broth, and simmer for 20 minutes.",
+        "Blend until smooth."
+      ],
+      "prepTime": "10 minutes",
+      "cookTime": "20 minutes",
+      "servings": "4",
+      "tags": ["Lunch"],
+      "allergens": []
+    },
+    {
+      "name": "Pancakes",
+      "ingredients": [
+        { "name": "Flour", "quantity": "1", "unit": "cup" },
+        { "name": "Egg", "quantity": "1", "unit": "piece" },
+        { "name": "Milk", "quantity": "1", "unit": "cup" },
+        { "name": "Baking Powder", "quantity": "2", "unit": "teaspoons" },
+        { "name": "Sugar", "quantity": "1", "unit": "tablespoon" }
+      ],
+      "instructions": [
+        "Mix all ingredients until smooth.",
+        "Pour batter onto a hot skillet and cook until bubbles form."
+      ],
+      "prepTime": "5 minutes",
+      "cookTime": "10 minutes",
+      "servings": "4",
+      "tags": ["Breakfast"],
+      "allergens": ["Gluten", "Dairy", "Eggs"]
+    },
+    {
+      "name": "Vegetable Stir-Fry",
+      "ingredients": [
+        { "name": "Mixed Vegetables", "quantity": "2", "unit": "cups" },
+        { "name": "Soy Sauce", "quantity": "2", "unit": "tablespoons" },
+        { "name": "Olive Oil", "quantity": "1", "unit": "tablespoon" },
+        { "name": "Garlic", "quantity": "2", "unit": "cloves" }
+      ],
+      "instructions": [
+        "Heat olive oil and sauté garlic.",
+        "Add mixed vegetables and stir-fry for 5-7 minutes.",
+        "Add soy sauce and serve."
+      ],
+      "prepTime": "5 minutes",
+      "cookTime": "10 minutes",
+      "servings": "2",
+      "tags": ["Dinner"],
+      "allergens": []
+    },
+    {
+      "name": "Egg Salad Sandwich",
+      "ingredients": [
+        { "name": "Eggs", "quantity": "4", "unit": "pieces" },
+        { "name": "Mayonnaise", "quantity": "1/4", "unit": "cup" },
+        { "name": "Mustard", "quantity": "1", "unit": "teaspoon" },
+        { "name": "Bread", "quantity": "4", "unit": "slices" }
+      ],
+      "instructions": [
+        "Boil eggs and chop them.",
+        "Mix eggs with mayonnaise and mustard.",
+        "Spread on bread slices."
+      ],
+      "prepTime": "10 minutes",
+      "cookTime": "10 minutes",
+      "servings": "2",
+      "tags": ["Lunch"],
+      "allergens": ["Eggs", "Gluten"]
+    },
+    {
+      "name": "Smoothie Bowl",
+      "ingredients": [
+        { "name": "Frozen Berries", "quantity": "1", "unit": "cup" },
+        { "name": "Banana", "quantity": "1", "unit": "piece" },
+        { "name": "Greek Yogurt", "quantity": "1", "unit": "cup" },
+        { "name": "Granola", "quantity": "1/4", "unit": "cup" }
+      ],
+      "instructions": [
+        "Blend berries, banana, and yogurt until smooth.",
+        "Pour into a bowl and top with granola."
+      ],
+      "prepTime": "5 minutes",
+      "cookTime": "0 minutes",
+      "servings": "1",
+      "tags": ["Breakfast"],
+      "allergens": ["Dairy", "Gluten"]
+    },
+    {
+      "name": "Pasta Salad",
+      "ingredients": [
+        { "name": "Pasta", "quantity": "2", "unit": "cups" },
+        { "name": "Olive Oil", "quantity": "1/4", "unit": "cup" },
+        { "name": "Vinegar", "quantity": "2", "unit": "tablespoons" },
+        { "name": "Tomatoes", "quantity": "1", "unit": "piece" },
+        { "name": "Cucumber", "quantity": "1", "unit": "piece" }
+      ],
+      "instructions": [
+        "Cook pasta according to package instructions.",
+        "Chop cucumber and tomato, then mix with pasta, olive oil, and vinegar."
+      ],
+      "prepTime": "10 minutes",
+      "cookTime": "15 minutes",
+      "servings": "4",
+      "tags": ["Lunch"],
+      "allergens": ["Gluten"]
+    },
+    {
+      "name": "Chocolate Chip Cookies",
+      "ingredients": [
+        { "name": "Butter", "quantity": "1/2", "unit": "cup" },
+        { "name": "Brown Sugar", "quantity": "1", "unit": "cup" },
+        { "name": "Sugar", "quantity": "1/2", "unit": "cup" },
+        { "name": "Egg", "quantity": "1", "unit": "piece" },
+        { "name": "Flour", "quantity": "1 1/2", "unit": "cups" },
+        { "name": "Chocolate Chips", "quantity": "1", "unit": "cup" }
+      ],
+      "instructions": [
+        "Preheat the oven to 180°C.",
+        "Cream butter and sugars, then add egg and mix.",
+        "Gradually add flour and chocolate chips.",
+        "Drop spoonfuls onto a baking sheet and bake for 10-12 minutes."
+      ],
+      "prepTime": "15 minutes",
+      "cookTime": "12 minutes",
+      "servings": "12",
+      "tags": ["Dessert"],
+      "allergens": ["Gluten", "Dairy", "Eggs"]
+    },
+    {
+      "name": "Stuffed Bell Peppers",
+      "ingredients": [
+        { "name": "Bell Peppers", "quantity": "2", "unit": "pieces" },
+        { "name": "Ground Beef", "quantity": "300", "unit": "grams" },
+        { "name": "Rice", "quantity": "1", "unit": "cup" },
+        { "name": "Tomato Sauce", "quantity": "1", "unit": "cup" },
+        { "name": "Onion", "quantity": "1", "unit": "piece" }
+      ],
+      "instructions": [
+        "Cook the rice according to package instructions.",
+        "Brown the ground beef with chopped onion.",
+        "Mix beef with rice and tomato sauce, stuff into bell peppers.",
+        "Bake at 180°C for 30 minutes."
+      ],
+      "prepTime": "10 minutes",
+      "cookTime": "40 minutes",
+      "servings": "4",
+      "tags": ["Dinner"],
+      "allergens": ["Gluten"]
+    },
+    {
+      "name": "Mango Smoothie",
+      "ingredients": [
+        { "name": "Mango", "quantity": "1", "unit": "piece" },
+        { "name": "Yogurt", "quantity": "1", "unit": "cup" },
+        { "name": "Milk", "quantity": "1/2", "unit": "cup" },
+        { "name": "Honey", "quantity": "1", "unit": "tablespoon" }
+      ],
+      "instructions": [
+        "Blend all ingredients until smooth."
+      ],
+      "prepTime": "5 minutes",
+      "cookTime": "0 minutes",
+      "servings": "1",
+      "tags": ["Breakfast"],
+      "allergens": ["Dairy"]
+    },
+    {
+      "name": "Caesar Salad",
+      "ingredients": [
+        { "name": "Romaine Lettuce", "quantity": "1", "unit": "head" },
+        { "name": "Croutons", "quantity": "1", "unit": "cup" },
+        { "name": "Caesar Dressing", "quantity": "1/4", "unit": "cup" },
+        { "name": "Parmesan Cheese", "quantity": "1/4", "unit": "cup" }
+      ],
+      "instructions": [
+        "Chop lettuce and toss with croutons and dressing.",
+        "Top with grated Parmesan cheese."
+      ],
+      "prepTime": "5 minutes",
+      "cookTime": "0 minutes",
+      "servings": "2",
+      "tags": ["Lunch"],
+      "allergens": ["Dairy"]
+    },
+    {
+      "name": "Chili Con Carne",
+      "ingredients": [
+        { "name": "Ground Beef", "quantity": "400", "unit": "grams" },
+        { "name": "Kidney Beans", "quantity": "1", "unit": "can" },
+        { "name": "Tomato Sauce", "quantity": "1", "unit": "cup" },
+        { "name": "Onion", "quantity": "1", "unit": "piece" },
+        { "name": "Chili Powder", "quantity": "1", "unit": "tablespoon" }
+      ],
+      "instructions": [
+        "Brown the ground beef with chopped onion.",
+        "Add kidney beans, tomato sauce, and chili powder.",
+        "Simmer for 30 minutes."
+      ],
+      "prepTime": "10 minutes",
+      "cookTime": "30 minutes",
+      "servings": "4",
+      "tags": ["Dinner"],
+      "allergens": []
+    },
+    {
+      "name": "Oatmeal",
+      "ingredients": [
+        { "name": "Rolled Oats", "quantity": "1", "unit": "cup" },
+        { "name": "Water", "quantity": "2", "unit": "cups" },
+        { "name": "Honey", "quantity": "1", "unit": "tablespoon" },
+        { "name": "Fruit", "quantity": "1", "unit": "piece" }
+      ],
+      "instructions": [
+        "Boil water and add oats.",
+        "Cook for 5 minutes and sweeten with honey.",
+        "Top with fresh fruit."
+      ],
+      "prepTime": "5 minutes",
+      "cookTime": "5 minutes",
+      "servings": "2",
+      "tags": ["Breakfast"],
+      "allergens": []
+    },
+    {
+      "name": "Grilled Cheese Sandwich",
+      "ingredients": [
+        { "name": "Bread", "quantity": "2", "unit": "slices" },
+        { "name": "Cheddar Cheese", "quantity": "2", "unit": "slices" },
+        { "name": "Butter", "quantity": "1", "unit": "tablespoon" }
+      ],
+      "instructions": [
+        "Butter one side of each slice of bread.",
+        "Place cheese between the unbuttered sides, and grill until golden brown."
+      ],
+      "prepTime": "5 minutes",
+      "cookTime": "5 minutes",
+      "servings": "1",
+      "tags": ["Lunch"],
+      "allergens": ["Gluten", "Dairy"]
+    },
+    {
+      "name": "Banana Bread",
+      "ingredients": [
+        { "name": "Bananas", "quantity": "3", "unit": "pieces" },
+        { "name": "Flour", "quantity": "1 1/2", "unit": "cups" },
+        { "name": "Sugar", "quantity": "1", "unit": "cup" },
+        { "name": "Egg", "quantity": "1", "unit": "piece" },
+        { "name": "Baking Soda", "quantity": "1", "unit": "teaspoon" }
+      ],
+      "instructions": [
+        "Preheat the oven to 180°C.",
+        "Mash bananas and mix with other ingredients.",
+        "Pour into a loaf pan and bake for 60 minutes."
+      ],
+      "prepTime": "15 minutes",
+      "cookTime": "60 minutes",
+      "servings": "8",
+      "tags": ["Breakfast"],
+      "allergens": ["Gluten", "Eggs"]
+    },
+    {
+      "name": "Roasted Vegetables",
+      "ingredients": [
+        { "name": "Mixed Vegetables", "quantity": "4", "unit": "cups" },
+        { "name": "Olive Oil", "quantity": "2", "unit": "tablespoons" },
+        { "name": "Salt", "quantity": "1", "unit": "teaspoon" },
+        { "name": "Pepper", "quantity": "1", "unit": "teaspoon" }
+      ],
+      "instructions": [
+        "Preheat the oven to 200°C.",
+        "Toss vegetables with olive oil, salt, and pepper.",
+        "Roast for 25-30 minutes."
+      ],
+      "prepTime": "10 minutes",
+      "cookTime": "30 minutes",
+      "servings": "4",
+      "tags": ["Dinner"],
+      "allergens": []
+    },
+    {
+      "name": "Eggs Benedict",
+      "ingredients": [
+        { "name": "Eggs", "quantity": "2", "unit": "pieces" },
+        { "name": "English Muffin", "quantity": "1", "unit": "piece" },
+        { "name": "Canadian Bacon", "quantity": "2", "unit": "slices" },
+        { "name": "Hollandaise Sauce", "quantity": "1/4", "unit": "cup" }
+      ],
+      "instructions": [
+        "Poach the eggs.",
+        "Toast the English muffin and layer with bacon and eggs.",
+        "Drizzle with hollandaise sauce."
+      ],
+      "prepTime": "10 minutes",
+      "cookTime": "10 minutes",
+      "servings": "1",
+      "tags": ["Breakfast"],
+      "allergens": ["Gluten", "Dairy", "Eggs"]
+    },
+    {
+      "name": "Minestrone Soup",
+      "ingredients": [
+        { "name": "Vegetable Broth", "quantity": "4", "unit": "cups" },
+        { "name": "Mixed Vegetables", "quantity": "2", "unit": "cups" },
+        { "name": "Pasta", "quantity": "1", "unit": "cup" },
+        { "name": "Tomato Sauce", "quantity": "1", "unit": "cup" },
+        { "name": "Parmesan Cheese", "quantity": "1/4", "unit": "cup" }
+      ],
+      "instructions": [
+        "Bring broth to a boil and add vegetables and pasta.",
+        "Simmer until pasta is cooked.",
+        "Serve with grated Parmesan cheese."
+      ],
+      "prepTime": "10 minutes",
+      "cookTime": "30 minutes",
+      "servings": "4",
+      "tags": ["Lunch"],
+      "allergens": ["Gluten", "Dairy"]
+    },
+    {
+      "name": "Chickpea Salad",
+      "ingredients": [
+        { "name": "Chickpeas", "quantity": "1", "unit": "can" },
+        { "name": "Cucumber", "quantity": "1", "unit": "piece" },
+        { "name": "Tomato", "quantity": "1", "unit": "piece" },
+        { "name": "Olive Oil", "quantity": "2", "unit": "tablespoons" },
+        { "name": "Lemon Juice", "quantity": "1", "unit": "tablespoon" }
+      ],
+      "instructions": [
+        "Rinse and drain chickpeas.",
+        "Chop cucumber and tomato, then mix with chickpeas.",
+        "Drizzle with olive oil and lemon juice."
+      ],
+      "prepTime": "10 minutes",
+      "cookTime": "0 minutes",
+      "servings": "2",
+      "tags": ["Lunch"],
+      "allergens": []
+    },
+    {
+      "name": "Vegetable Omelette",
+      "ingredients": [
+        { "name": "Eggs", "quantity": "3", "unit": "pieces" },
+        { "name": "Bell Pepper", "quantity": "1", "unit": "piece" },
+        { "name": "Onion", "quantity": "1/2", "unit": "piece" },
+        { "name": "Cheese", "quantity": "1/4", "unit": "cup" }
+      ],
+      "instructions": [
+        "Beat eggs and pour into a heated skillet.",
+        "Add chopped vegetables and cheese.",
+        "Cook until eggs are set."
+      ],
+      "prepTime": "5 minutes",
+      "cookTime": "5 minutes",
+      "servings": "1",
+      "tags": ["Breakfast"],
+      "allergens": ["Dairy", "Eggs"]
+    },
+    {
+      "name": "Chicken Stir-Fry",
+      "ingredients": [
+        { "name": "Chicken Breast", "quantity": "200", "unit": "grams" },
+        { "name": "Mixed Vegetables", "quantity": "2", "unit": "cups" },
+        { "name": "Soy Sauce", "quantity": "2", "unit": "tablespoons" },
+        { "name": "Olive Oil", "quantity": "1", "unit": "tablespoon" }
+      ],
+      "instructions": [
+        "Slice the chicken breast and cook in olive oil.",
+        "Add mixed vegetables and soy sauce, stir-fry for 10 minutes."
+      ],
+      "prepTime": "10 minutes",
+      "cookTime": "10 minutes",
+      "servings": "2",
+      "tags": ["Dinner"],
+      "allergens": []
+    },
+  {
+    "name": "French Toast",
+    "ingredients": [
+      { "name": "Bread", "quantity": "4", "unit": "slices" },
+      { "name": "Eggs", "quantity": "2", "unit": "pieces" },
+      { "name": "Milk", "quantity": "1/2", "unit": "cup" },
+      { "name": "Cinnamon", "quantity": "1", "unit": "teaspoon" },
+      { "name": "Maple Syrup", "quantity": "to taste", "unit": "" }
+    ],
+    "instructions": [
+      "Whisk eggs, milk, and cinnamon in a bowl.",
+      "Dip bread slices in the mixture and cook in a pan until golden brown.",
+      "Serve with maple syrup."
+    ],
+    "prepTime": "5 minutes",
+    "cookTime": "10 minutes",
+    "servings": "2",
+    "tags": ["Breakfast"],
+    "allergens": ["Gluten", "Dairy"]
+  },
+  {
+    "name": "Avocado Toast",
+    "ingredients": [
+      { "name": "Bread", "quantity": "2", "unit": "slices" },
+      { "name": "Avocado", "quantity": "1", "unit": "piece" },
+      { "name": "Salt", "quantity": "to taste", "unit": "" },
+      { "name": "Pepper", "quantity": "to taste", "unit": "" },
+      { "name": "Olive Oil", "quantity": "1", "unit": "tablespoon" }
+    ],
+    "instructions": [
+      "Toast the bread slices.",
+      "Mash the avocado and spread it on the toast.",
+      "Drizzle with olive oil, salt, and pepper."
+    ],
+    "prepTime": "5 minutes",
+    "cookTime": "5 minutes",
+    "servings": "2",
+    "tags": ["Breakfast"],
+    "allergens": ["Gluten"]
+  },
+  {
+    "name": "Oatmeal with Fruits",
+    "ingredients": [
+      { "name": "Oats", "quantity": "1", "unit": "cup" },
+      { "name": "Water", "quantity": "2", "unit": "cups" },
+      { "name": "Banana", "quantity": "1", "unit": "piece" },
+      { "name": "Honey", "quantity": "1", "unit": "tablespoon" },
+      { "name": "Cinnamon", "quantity": "1/2", "unit": "teaspoon" }
+    ],
+    "instructions": [
+      "Boil water and add oats.",
+      "Cook until desired consistency is reached.",
+      "Top with sliced banana, honey, and cinnamon."
+    ],
+    "prepTime": "5 minutes",
+    "cookTime": "10 minutes",
+    "servings": "2",
+    "tags": ["Breakfast"],
+    "allergens": []
+  },
+  {
+    "name": "Eggs Benedict",
+    "ingredients": [
+      { "name": "Eggs", "quantity": "4", "unit": "pieces" },
+      { "name": "English Muffin", "quantity": "2", "unit": "pieces" },
+      { "name": "Canadian Bacon", "quantity": "4", "unit": "slices" },
+      { "name": "Hollandaise Sauce", "quantity": "to taste", "unit": "" }
+    ],
+    "instructions": [
+      "Poach the eggs in simmering water.",
+      "Toast the English muffins and place bacon on top.",
+      "Add poached eggs and drizzle with hollandaise sauce."
+    ],
+    "prepTime": "10 minutes",
+    "cookTime": "10 minutes",
+    "servings": "2",
+    "tags": ["Breakfast"],
+    "allergens": ["Dairy", "Eggs", "Gluten"]
+  },
+  {
+    "name": "Breakfast Burrito",
+    "ingredients": [
+      { "name": "Tortilla", "quantity": "2", "unit": "pieces" },
+      { "name": "Eggs", "quantity": "4", "unit": "pieces" },
+      { "name": "Cheese", "quantity": "1", "unit": "cup" },
+      { "name": "Salsa", "quantity": "to taste", "unit": "" },
+      { "name": "Bell Pepper", "quantity": "1", "unit": "piece" }
+    ],
+    "instructions": [
+      "Scramble the eggs with diced bell pepper.",
+      "Place the egg mixture on tortillas and top with cheese and salsa.",
+      "Roll up and serve."
+    ],
+    "prepTime": "10 minutes",
+    "cookTime": "5 minutes",
+    "servings": "2",
+    "tags": ["Breakfast"],
+    "allergens": ["Dairy", "Gluten"]
+  },
+  {
+    "name": "Vegetable Omelette",
+    "ingredients": [
+      { "name": "Eggs", "quantity": "3", "unit": "pieces" },
+      { "name": "Bell Pepper", "quantity": "1", "unit": "piece" },
+      { "name": "Spinach", "quantity": "1", "unit": "cup" },
+      { "name": "Onion", "quantity": "1/2", "unit": "piece" },
+      { "name": "Cheese", "quantity": "1/2", "unit": "cup" }
+    ],
+    "instructions": [
+      "Whisk the eggs and pour into a hot skillet.",
+      "Add chopped vegetables and cheese.",
+      "Cook until the eggs are set."
+    ],
+    "prepTime": "5 minutes",
+    "cookTime": "5 minutes",
+    "servings": "1",
+    "tags": ["Breakfast"],
+    "allergens": ["Dairy", "Eggs"]
+  },
+  {
+    "name": "Pancakes",
+    "ingredients": [
+      { "name": "Flour", "quantity": "1", "unit": "cup" },
+      { "name": "Eggs", "quantity": "1", "unit": "piece" },
+      { "name": "Milk", "quantity": "1", "unit": "cup" },
+      { "name": "Baking Powder", "quantity": "2", "unit": "teaspoons" },
+      { "name": "Sugar", "quantity": "2", "unit": "tablespoons" }
+    ],
+    "instructions": [
+      "Mix all ingredients until smooth.",
+      "Pour batter onto a hot skillet.",
+      "Flip when bubbles form, and cook until golden."
+    ],
+    "prepTime": "10 minutes",
+    "cookTime": "15 minutes",
+    "servings": "4",
+    "tags": ["Breakfast"],
+    "allergens": ["Gluten", "Dairy", "Eggs"]
+  },
+  {
+    "name": "Smoothie Bowl",
+    "ingredients": [
+      { "name": "Banana", "quantity": "1", "unit": "piece" },
+      { "name": "Yogurt", "quantity": "1", "unit": "cup" },
+      { "name": "Granola", "quantity": "1/2", "unit": "cup" },
+      { "name": "Mixed Berries", "quantity": "1", "unit": "cup" }
+    ],
+    "instructions": [
+      "Blend banana and yogurt until smooth.",
+      "Pour into a bowl and top with granola and mixed berries."
+    ],
+    "prepTime": "5 minutes",
+    "cookTime": "0 minutes",
+    "servings": "1",
+    "tags": ["Breakfast"],
+    "allergens": ["Dairy"]
+  },
+  {
+    "name": "Quiche Lorraine",
+    "ingredients": [
+      { "name": "Pie Crust", "quantity": "1", "unit": "piece" },
+      { "name": "Eggs", "quantity": "4", "unit": "pieces" },
+      { "name": "Cream", "quantity": "1", "unit": "cup" },
+      { "name": "Bacon", "quantity": "100", "unit": "grams" },
+      { "name": "Cheese", "quantity": "1", "unit": "cup" }
+    ],
+    "instructions": [
+      "Preheat the oven to 375°F (190°C).",
+      "Cook bacon until crispy and chop.",
+      "Whisk eggs and cream together.",
+      "Place bacon in the pie crust, pour the egg mixture on top, and add cheese.",
+      "Bake for 30-35 minutes."
+    ],
+    "prepTime": "15 minutes",
+    "cookTime": "30 minutes",
+    "servings": "8",
+    "tags": ["Breakfast"],
+    "allergens": ["Dairy", "Gluten", "Eggs"]
+  },
+  {
+    "name": "Fruit Salad",
+    "ingredients": [
+      { "name": "Strawberries", "quantity": "1", "unit": "cup" },
+      { "name": "Blueberries", "quantity": "1", "unit": "cup" },
+      { "name": "Banana", "quantity": "1", "unit": "piece" },
+      { "name": "Honey", "quantity": "1", "unit": "tablespoon" }
+    ],
+    "instructions": [
+      "Chop all the fruits and combine in a bowl.",
+      "Drizzle with honey and mix well."
+    ],
+    "prepTime": "5 minutes",
+    "cookTime": "0 minutes",
+    "servings": "2",
+    "tags": ["Breakfast"],
+    "allergens": []
+  },
+  {
+    "name": "Caprese Salad",
+    "ingredients": [
+      { "name": "Tomatoes", "quantity": "3", "unit": "pieces" },
+      { "name": "Mozzarella Cheese", "quantity": "200", "unit": "grams" },
+      { "name": "Basil", "quantity": "1", "unit": "bunch" },
+      { "name": "Olive Oil", "quantity": "2", "unit": "tablespoons" },
+      { "name": "Balsamic Vinegar", "quantity": "1", "unit": "tablespoon" }
+    ],
+    "instructions": [
+      "Slice tomatoes and mozzarella cheese.",
+      "Layer with basil leaves.",
+      "Drizzle with olive oil and balsamic vinegar."
+    ],
+    "prepTime": "10 minutes",
+    "cookTime": "0 minutes",
+    "servings": "2",
+    "tags": ["Lunch"],
+    "allergens": ["Dairy"]
+  },
+  {
+    "name": "Tuna Salad Sandwich",
+    "ingredients": [
+      { "name": "Canned Tuna", "quantity": "1", "unit": "can" },
+      { "name": "Mayonnaise", "quantity": "2", "unit": "tablespoons" },
+      { "name": "Celery", "quantity": "1", "unit": "stalk" },
+      { "name": "Bread", "quantity": "2", "unit": "slices" },
+      { "name": "Lettuce", "quantity": "2", "unit": "leaves" }
+    ],
+    "instructions": [
+      "Mix tuna, mayonnaise, and chopped celery.",
+      "Spread on bread and add lettuce."
+    ],
+    "prepTime": "5 minutes",
+    "cookTime": "0 minutes",
+    "servings": "1",
+    "tags": ["Lunch"],
+    "allergens": ["Fish", "Gluten", "Dairy"]
+  },
+  {
+    "name": "Caesar Salad",
+    "ingredients": [
+      { "name": "Romaine Lettuce", "quantity": "1", "unit": "head" },
+      { "name": "Croutons", "quantity": "1", "unit": "cup" },
+      { "name": "Parmesan Cheese", "quantity": "1/2", "unit": "cup" },
+      { "name": "Caesar Dressing", "quantity": "1/4", "unit": "cup" }
+    ],
+    "instructions": [
+      "Chop romaine lettuce and place in a bowl.",
+      "Add croutons and parmesan cheese.",
+      "Drizzle with dressing and toss."
+    ],
+    "prepTime": "5 minutes",
+    "cookTime": "0 minutes",
+    "servings": "2",
+    "tags": ["Lunch"],
+    "allergens": ["Dairy", "Gluten"]
+  },
+  {
+    "name": "Quinoa Salad",
+    "ingredients": [
+      { "name": "Quinoa", "quantity": "1", "unit": "cup" },
+      { "name": "Cucumber", "quantity": "1", "unit": "piece" },
+      { "name": "Cherry Tomatoes", "quantity": "1", "unit": "cup" },
+      { "name": "Feta Cheese", "quantity": "100", "unit": "grams" },
+      { "name": "Olive Oil", "quantity": "2", "unit": "tablespoons" }
+    ],
+    "instructions": [
+      "Cook quinoa as per package instructions.",
+      "Chop cucumber and tomatoes.",
+      "Combine all ingredients in a bowl and drizzle with olive oil."
+    ],
+    "prepTime": "10 minutes",
+    "cookTime": "15 minutes",
+    "servings": "4",
+    "tags": ["Lunch"],
+    "allergens": ["Dairy", "Gluten"]
+  },
+  {
+    "name": "Pasta Salad",
+    "ingredients": [
+      { "name": "Pasta", "quantity": "2", "unit": "cups" },
+      { "name": "Bell Pepper", "quantity": "1", "unit": "piece" },
+      { "name": "Olives", "quantity": "1/2", "unit": "cup" },
+      { "name": "Feta Cheese", "quantity": "100", "unit": "grams" },
+      { "name": "Italian Dressing", "quantity": "1/4", "unit": "cup" }
+    ],
+    "instructions": [
+      "Cook pasta according to package instructions.",
+      "Chop bell pepper and mix with olives and feta.",
+      "Toss with pasta and dressing."
+    ],
+    "prepTime": "10 minutes",
+    "cookTime": "10 minutes",
+    "servings": "4",
+    "tags": ["Lunch"],
+    "allergens": ["Dairy", "Gluten"]
+  },
+  {
+    "name": "Hummus and Veggies",
+    "ingredients": [
+      { "name": "Hummus", "quantity": "1", "unit": "cup" },
+      { "name": "Carrot", "quantity": "1", "unit": "piece" },
+      { "name": "Cucumber", "quantity": "1", "unit": "piece" },
+      { "name": "Bell Pepper", "quantity": "1", "unit": "piece" }
+    ],
+    "instructions": [
+      "Slice the vegetables.",
+      "Serve with hummus."
+    ],
+    "prepTime": "5 minutes",
+    "cookTime": "0 minutes",
+    "servings": "2",
+    "tags": ["Lunch"],
+    "allergens": []
+  },
+  {
+    "name": "Grilled Cheese Sandwich",
+    "ingredients": [
+      { "name": "Bread", "quantity": "2", "unit": "slices" },
+      { "name": "Cheese", "quantity": "2", "unit": "slices" },
+      { "name": "Butter", "quantity": "1", "unit": "tablespoon" }
+    ],
+    "instructions": [
+      "Butter one side of each slice of bread.",
+      "Place cheese between slices and grill until golden brown."
+    ],
+    "prepTime": "5 minutes",
+    "cookTime": "5 minutes",
+    "servings": "1",
+    "tags": ["Lunch"],
+    "allergens": ["Gluten", "Dairy"]
+  },
+  {
+    "name": "Vegetable Stir-Fry",
+    "ingredients": [
+      { "name": "Mixed Vegetables", "quantity": "2", "unit": "cups" },
+      { "name": "Soy Sauce", "quantity": "2", "unit": "tablespoons" },
+      { "name": "Garlic", "quantity": "2", "unit": "cloves" },
+      { "name": "Ginger", "quantity": "1", "unit": "teaspoon" },
+      { "name": "Olive Oil", "quantity": "1", "unit": "tablespoon" }
+    ],
+    "instructions": [
+      "Heat oil in a pan and add garlic and ginger.",
+      "Add mixed vegetables and stir-fry for 5-7 minutes.",
+      "Drizzle with soy sauce before serving."
+    ],
+    "prepTime": "5 minutes",
+    "cookTime": "10 minutes",
+    "servings": "2",
+    "tags": ["Dinner"],
+    "allergens": ["Soy"]
+  },
+  {
+    "name": "Chicken Stir-Fry",
+    "ingredients": [
+      { "name": "Chicken Breast", "quantity": "300", "unit": "grams" },
+      { "name": "Bell Pepper", "quantity": "1", "unit": "piece" },
+      { "name": "Broccoli", "quantity": "1", "unit": "cup" },
+      { "name": "Soy Sauce", "quantity": "2", "unit": "tablespoons" },
+      { "name": "Olive Oil", "quantity": "1", "unit": "tablespoon" }
+    ],
+    "instructions": [
+      "Slice chicken and cook in oil until browned.",
+      "Add vegetables and stir-fry for 5-7 minutes.",
+      "Drizzle with soy sauce before serving."
+    ],
+    "prepTime": "10 minutes",
+    "cookTime": "10 minutes",
+    "servings": "2",
+    "tags": ["Dinner"],
+    "allergens": ["Soy"]
+  },
+  {
+    "name": "Beef Tacos",
+    "ingredients": [
+      { "name": "Ground Beef", "quantity": "300", "unit": "grams" },
+      { "name": "Taco Shells", "quantity": "4", "unit": "pieces" },
+      { "name": "Lettuce", "quantity": "1", "unit": "cup" },
+      { "name": "Tomato", "quantity": "1", "unit": "piece" },
+      { "name": "Cheese", "quantity": "1", "unit": "cup" }
+    ],
+    "instructions": [
+      "Brown the ground beef in a pan.",
+      "Fill taco shells with beef, lettuce, tomato, and cheese."
+    ],
+    "prepTime": "10 minutes",
+    "cookTime": "10 minutes",
+    "servings": "4",
+    "tags": ["Dinner"],
+    "allergens": ["Gluten", "Dairy"]
+  },
+  {
+    "name": "Chicken Alfredo",
+    "ingredients": [
+      { "name": "Fettuccine", "quantity": "200", "unit": "grams" },
+      { "name": "Chicken Breast", "quantity": "300", "unit": "grams" },
+      { "name": "Alfredo Sauce", "quantity": "1", "unit": "cup" },
+      { "name": "Parmesan Cheese", "quantity": "1/2", "unit": "cup" }
+    ],
+    "instructions": [
+      "Cook fettuccine according to package instructions.",
+      "Grill and slice chicken.",
+      "Combine pasta with Alfredo sauce and top with chicken and cheese."
+    ],
+    "prepTime": "10 minutes",
+    "cookTime": "15 minutes",
+    "servings": "2",
+    "tags": ["Dinner"],
+    "allergens": ["Gluten", "Dairy"]
+  },
+  {
+    "name": "Stuffed Peppers",
+    "ingredients": [
+      { "name": "Bell Peppers", "quantity": "2", "unit": "pieces" },
+      { "name": "Ground Beef", "quantity": "250", "unit": "grams" },
+      { "name": "Rice", "quantity": "1", "unit": "cup" },
+      { "name": "Tomato Sauce", "quantity": "1", "unit": "cup" }
+    ],
+    "instructions": [
+      "Preheat the oven to 375°F (190°C).",
+      "Cook rice and mix with ground beef and tomato sauce.",
+      "Stuff the mixture into halved bell peppers.",
+      "Bake for 30 minutes."
+    ],
+    "prepTime": "10 minutes",
+    "cookTime": "30 minutes",
+    "servings": "2",
+    "tags": ["Dinner"],
+    "allergens": []
+  },
+  {
+    "name": "Lemon Garlic Shrimp",
+    "ingredients": [
+      { "name": "Shrimp", "quantity": "300", "unit": "grams" },
+      { "name": "Garlic", "quantity": "3", "unit": "cloves" },
+      { "name": "Lemon", "quantity": "1", "unit": "piece" },
+      { "name": "Olive Oil", "quantity": "2", "unit": "tablespoons" },
+      { "name": "Parsley", "quantity": "1", "unit": "tablespoon" }
+    ],
+    "instructions": [
+      "Heat oil in a pan and add minced garlic.",
+      "Add shrimp and cook until pink.",
+      "Squeeze lemon juice and add parsley before serving."
+    ],
+    "prepTime": "10 minutes",
+    "cookTime": "5 minutes",
+    "servings": "2",
+    "tags": ["Dinner"],
+    "allergens": ["Shellfish"]
+  },
+  {
+    "name": "Baked Salmon",
+    "ingredients": [
+      { "name": "Salmon Fillet", "quantity": "300", "unit": "grams" },
+      { "name": "Lemon", "quantity": "1", "unit": "piece" },
+      { "name": "Garlic", "quantity": "2", "unit": "cloves" },
+      { "name": "Olive Oil", "quantity": "1", "unit": "tablespoon" },
+      { "name": "Dill", "quantity": "1", "unit": "teaspoon" }
+    ],
+    "instructions": [
+      "Preheat the oven to 375°F (190°C).",
+      "Place salmon on a baking sheet and drizzle with oil.",
+      "Top with minced garlic, lemon slices, and dill.",
+      "Bake for 20 minutes."
+    ],
+    "prepTime": "10 minutes",
+    "cookTime": "20 minutes",
+    "servings": "2",
+    "tags": ["Dinner"],
+    "allergens": ["Fish"]
+  },
+  {
+    "name": "Vegetable Curry",
+    "ingredients": [
+      { "name": "Mixed Vegetables", "quantity": "2", "unit": "cups" },
+      { "name": "Coconut Milk", "quantity": "1", "unit": "cup" },
+      { "name": "Curry Powder", "quantity": "2", "unit": "tablespoons" },
+      { "name": "Olive Oil", "quantity": "1", "unit": "tablespoon" },
+      { "name": "Rice", "quantity": "1", "unit": "cup" }
+    ],
+    "instructions": [
+      "Heat oil in a pan and add mixed vegetables.",
+      "Stir in curry powder and cook for 1 minute.",
+      "Add coconut milk and simmer for 10 minutes.",
+      "Serve with cooked rice."
+    ],
+    "prepTime": "10 minutes",
+    "cookTime": "15 minutes",
+    "servings": "4",
+    "tags": ["Dinner"],
+    "allergens": []
+  },
+  {
+    "name": "Chicken Parmesan",
+    "ingredients": [
+      { "name": "Chicken Breast", "quantity": "300", "unit": "grams" },
+      { "name": "Breadcrumbs", "quantity": "1", "unit": "cup" },
+      { "name": "Parmesan Cheese", "quantity": "1/2", "unit": "cup" },
+      { "name": "Marinara Sauce", "quantity": "1", "unit": "cup" },
+      { "name": "Mozzarella Cheese", "quantity": "1/2", "unit": "cup" }
+    ],
+    "instructions": [
+      "Preheat the oven to 375°F (190°C).",
+      "Coat chicken in breadcrumbs and bake for 20 minutes.",
+      "Top with marinara and mozzarella cheese, then bake for an additional 10 minutes."
+    ],
+    "prepTime": "10 minutes",
+    "cookTime": "30 minutes",
+    "servings": "2",
+    "tags": ["Dinner"],
+    "allergens": ["Gluten", "Dairy"]
+  },
+  {
+    "name": "Stuffed Zucchini",
+    "ingredients": [
+      { "name": "Zucchini", "quantity": "2", "unit": "pieces" },
+      { "name": "Ground Turkey", "quantity": "300", "unit": "grams" },
+      { "name": "Tomato Sauce", "quantity": "1", "unit": "cup" },
+      { "name": "Cheese", "quantity": "1/2", "unit": "cup" }
+    ],
+    "instructions": [
+      "Preheat the oven to 375°F (190°C).",
+      "Halve zucchinis and scoop out the center.",
+      "Mix ground turkey with tomato sauce and fill zucchini halves.",
+      "Top with cheese and bake for 25 minutes."
+    ],
+    "prepTime": "10 minutes",
+    "cookTime": "25 minutes",
+    "servings": "2",
+    "tags": ["Dinner"],
+    "allergens": ["Dairy"]
+  },
+  {
+    "name": "Pork Chops with Apples",
+    "ingredients": [
+      { "name": "Pork Chops", "quantity": "2", "unit": "pieces" },
+      { "name": "Apples", "quantity": "2", "unit": "pieces" },
+      { "name": "Onion", "quantity": "1", "unit": "piece" },
+      { "name": "Olive Oil", "quantity": "2", "unit": "tablespoons" },
+      { "name": "Thyme", "quantity": "1", "unit": "teaspoon" }
+    ],
+    "instructions": [
+      "Season pork chops and sear in olive oil.",
+      "Add sliced apples and onions, and cook until done.",
+      "Sprinkle with thyme before serving."
+    ],
+    "prepTime": "10 minutes",
+    "cookTime": "20 minutes",
+    "servings": "2",
+    "tags": ["Dinner"],
+    "allergens": []
+  },
+  {
+    "name": "Chocolate Chip Cookies",
+    "ingredients": [
+      { "name": "Butter", "quantity": "1", "unit": "cup" },
+      { "name": "Brown Sugar", "quantity": "1", "unit": "cup" },
+      { "name": "Sugar", "quantity": "1/2", "unit": "cup" },
+      { "name": "Flour", "quantity": "2", "unit": "cups" },
+      { "name": "Chocolate Chips", "quantity": "2", "unit": "cups" },
+      { "name": "Eggs", "quantity": "2", "unit": "pieces" },
+      { "name": "Vanilla Extract", "quantity": "1", "unit": "teaspoon" },
+      { "name": "Baking Soda", "quantity": "1", "unit": "teaspoon" },
+      { "name": "Salt", "quantity": "1/2", "unit": "teaspoon" }
+    ],
+    "instructions": [
+      "Preheat the oven to 350°F (175°C).",
+      "Cream together butter, brown sugar, and sugar.",
+      "Beat in eggs and vanilla, then mix in dry ingredients.",
+      "Stir in chocolate chips and drop spoonfuls on a baking sheet.",
+      "Bake for 10-12 minutes."
+    ],
+    "prepTime": "15 minutes",
+    "cookTime": "12 minutes",
+    "servings": "24",
+    "tags": ["Dessert"],
+    "allergens": ["Gluten", "Dairy"]
+  },
+  {
+    "name": "Fruit Salad",
+    "ingredients": [
+      { "name": "Strawberries", "quantity": "1", "unit": "cup" },
+      { "name": "Blueberries", "quantity": "1", "unit": "cup" },
+      { "name": "Banana", "quantity": "1", "unit": "piece" },
+      { "name": "Honey", "quantity": "1", "unit": "tablespoon" }
+    ],
+    "instructions": [
+      "Chop all the fruits and combine in a bowl.",
+      "Drizzle with honey and mix well."
+    ],
+    "prepTime": "5 minutes",
+    "cookTime": "0 minutes",
+    "servings": "2",
+    "tags": ["Dessert"],
+    "allergens": []
+  }
+]
+
+  
