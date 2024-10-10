@@ -3,23 +3,26 @@
       "username": "suzzie99",
       "email": "suzzie.simpson@example.com",
       "likes": [
-        "cheese",
-        "olives"
+        "Cheese",
+        "Olives"
       ],
       "dislikes": null,
       "allergies": [
-        "chocolate"
+        "Chocolate"
       ]
     },
     {
       "username": "johnDoe",
       "email": "john.doe@example.com",
       "likes": [
-        "pizza",
-        "burgers"
+        "Pizza",
+        "Burgers",
+        "Onion",
+        "Carrot",
+        "Olive Oil"
       ],
       "dislikes": [
-        "spinach"
+        "Spinach"
       ],
       "allergies": []
     },
@@ -27,30 +30,30 @@
       "username": "amyWine",
       "email": "amy.winehouse@example.com",
       "likes": [
-        "wine",
-        "cheese",
-        "bread"
+        "Wine",
+        "Cheese",
+        "Bread"
       ],
       "dislikes": [
-        "broccoli",
-        "brussels sprouts"
+        "Broccoli",
+        "Brussels sprouts"
       ],
       "allergies": [
-        "gluten"
+        "Gluten"
       ]
     },
     {
       "username": "tomHanks",
       "email": "tom.hanks@example.com",
       "likes": [
-        "pasta",
-        "ice cream"
+        "Pasta",
+        "Ice cream"
       ],
       "dislikes": [
-        "peppers"
+        "Peppers"
       ],
       "allergies": [
-        "nuts"
+        "Nuts"
       ]
     }
   ]
