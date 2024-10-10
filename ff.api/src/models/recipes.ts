@@ -16,6 +16,10 @@ const RecipeSchema = new mongoose.Schema({
 export const RecipeModel  = mongoose.model('Recipe', RecipeSchema);
 
 export const findRecipes = () => RecipeModel.find();
+export const findRecipesByTypeRespectingAllergies = (type: string, allergies: string[]) => RecipeModel.find({
+    tags: type,
+    allergens:  { $not: { $in: allergies } }
+});
 export const findRecipeByName = (name: string) => RecipeModel.findOne({name});
 export const findRecipeById = (id: string) => RecipeModel.findOne({_id : id});
 export const createRecipe= (values: Record<string, any>) => new RecipeModel(values)

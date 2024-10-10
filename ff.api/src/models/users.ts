@@ -16,3 +16,6 @@ export const findUserById = (id: string) => UserModel.findOne({_id : id});
 export const createUser = (values: Record<string, any>) => new UserModel(values)
     .save().then((user) => user.toObject());
 export const deleteUserById = (id: string) => UserModel.findByIdAndDelete({_id : id});
+export const findUsersByEmails = (emails: string[]) => {
+    return Promise.all(emails.map(email => UserModel.findOne({ email })));
+};
